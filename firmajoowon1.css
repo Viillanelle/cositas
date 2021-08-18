@@ -35,10 +35,12 @@
   left: -12px;
 }
 
+
+
 #joowonf .jfq1 {
   color: #c0c0c0;
   text-align: center;
-  margin-bottom: -35px !important;
+  margin-bottom: -35px;
   position: relative;
   letter-spacing: 8px;
   text-indent: 8px;
