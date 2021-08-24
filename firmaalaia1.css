@@ -1,0 +1,47 @@
+
+#alaiaf .af i {
+  color: #7b668f;
+  font-size: 30px;
+}
+
+
+#alaiaf .af:hover .af1 {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#alaiaf .af .af1 .afq {
+  color: #dcdcdc;
+  font: 7px "Arial";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+  padding: 15px 0px 10px 0px;
+  width: 110px;
+  text-align: justify;
+  border-bottom: 1px solid #7b668f;
+}
+
+#alaiaf .af .af1 {
+  width: 280px;
+  height: 200px;
+  backdrop-filter: blur(6px);
+  transition: ease .5s;
+  opacity: 0;
+ 
+  display: flex;
+  	flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+	  align-content: center;
+}
+
+#alaiaf .af {
+  width: 280px;
+  height: 200px;
+  margin: 0 auto;
+  border: 7px solid #131313;
+  outline: 1px solid #7b668f;
+  outline-style: dotted;
+}
