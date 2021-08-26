@@ -1,0 +1,106 @@
+#nadsf .nadsf1 {
+  margin: 0 auto;
+  width: 280px;
+  height: 200px;
+  position: relative;
+  border: 3px solid #151515;
+  outline: 1px solid #674966;
+}
+
+#nadsf .nadsf1:before,
+#nadsf .nadsf1:after {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 0;
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+}
+
+#nadsf .nadsf1:before {
+  border-color: #674966;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  right: -7px;
+  top: -7px;
+}
+
+#nadsf .nadsf1:after {
+  border-color: #674966;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  bottom: -7px;
+  left: -7px;
+}
+
+#nadsf .nadsf1:hover:before,
+#nadsf .nadsf1:hover:after {
+  height: 213px;
+  width: 293px;
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 0;
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+}
+
+#nadsf .nadsf1:hover:before {
+  border-color: #674966;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  right: -7px;
+  top: -7px;
+}
+
+#nadsf .nadsf1:hover:after {
+  border-color: #674966;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  bottom: -7px;
+  left: -7px;
+}
+
+#nadsf .nadsfhov {
+  width: 280px;
+  height: 200px;
+  opacity: 0;
+  color: #dcdcdc;
+  font: 8px 'Verdana', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  display: flex;
+    flex-direction: column;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+}
+
+#nadsf .nadsf1 .nadsfhov hs {
+  border-bottom: 2px solid #674966;
+}
+
+#nadsf .nadss {
+  font: 20px 'Moon Phases';
+  text-transform: lowercase;
+  letter-spacing: 0px;
+  color: #674966;
+  padding: 10px;
+}
+
+#nadsf .nadsf1:hover .nadsfhov { 
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: grayscale(1);
+  opacity: 1;
+}
+
+@font-face {
+font-family: 'Moon Phases';
+src:url('https://dl.dropbox.com/s/t328i2mkt4j03ev/moon_phases.ttf');
+format(“truetype”);
+}
