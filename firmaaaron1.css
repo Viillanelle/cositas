@@ -1,0 +1,88 @@
+#aaronf .aaronc {
+  border: 5px solid #000;
+  outline: 1px solid #607b8f;
+  width: 270px;
+  height: 170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#aaronf .aaronc .aaronfq {
+  width: 0;
+  font: 900 9px "JetBrains Mono", monospace;
+  color: #090909;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  transition: 1s;
+}
+
+#aaronf .aaronc:hover .aaronfq {
+  margin-left: -100px;
+  transition: 1s;
+}
+
+#aaronf .aaronc .aafh {
+  width: 270px;
+  height: 170px;
+  background-color: #607b8f;
+  margin-top: 75px;
+  position: relative;
+  backdrop-filter: grayscale(1);
+  transition: 1s;
+  display: flex;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+	  align-content: center;
+}
+
+#aaronf .aaronc .aaronfq bl {
+  border-bottom: 4px solid #607b8f;
+}
+
+#aaronf .aaronc:hover .aafh {
+  margin-top: -105px;
+  transition: 1s;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#aaronf .aaronc .aafh .aaquote {
+  width: 100px;
+  font: 900 7px "Arial";
+  color: #EBEFF1;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: justify;
+  padding: 0px 10px 0px 10px;
+  border-left: 1px solid #607b8f;
+  border-right: 1px solid #607b8f;
+}
+
+#aaronf .aaronc .aafh .escudo {
+  font-size: 30px;
+  color: #607b8f;
+  padding: 10px;
+  animation: aarongj 2s infinite;
+}
+
+#aaronf .aaronc .aafh .copo {
+  font-size: 30px;
+  color: #607b8f;
+  padding: 10px;
+  animation: aarongj 2s infinite;
+}
+
+@keyframes aarongj {
+   0% { color: #607B8F; }
+  25% { color: #9CADB9; }
+  50% { color: #EBEFF1; }
+  75% { color: #9CADB9; }
+  100% { color: #607B8F; }
+}
