@@ -42,7 +42,7 @@
 
 
 #tiberius .tibsf:hover {
-  outline: 2px solid #666666;
+  outline: 1px solid #666666;
   transition: 1s;
 }
 
@@ -51,7 +51,7 @@
   height: 200px;
   margin: 0 auto;
   overflow: hidden;
-  outline: 2px solid #6b3f3f;
+  outline: 1px solid #6b3f3f;
   outline-offset: 7px;
   transition: 1s;
 }
