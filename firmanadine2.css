@@ -1,0 +1,68 @@
+.nadshc .n1:hover .nhov {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nadshc .n1 .nhov .text {
+  font: 8px Calibri;
+  color: #dcdcdc;
+  width: 140px;
+  text-align: justify;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.nadshc .n1 .nhov {
+  width: 300px;
+  height: 180px;
+  opacity: 0;
+  backdrop-filter: grayscale(1);
+  display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+	  align-content: center;
+}
+
+.nadshc .n1:hover {
+  outline: 1px solid #674966;
+  animation: parpadeo 2s linear infinite;
+}
+
+.nadshc .n1 {
+  width: 300px;
+  height: 180px;
+  margin: 0 auto;
+  outline: 1px solid #674966;
+  outline-offset: 2px;
+  border: 1px solid #101010;
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 0.1;
+    outline: 1px solid #202020;
+  }
+  2% {
+    opacity: 1;
+    outline: 1px solid #202020;
+  }
+  4% {
+    opacity: 0.1;
+    outline: 1px solid #674966;
+  }
+  
+  8% {
+    opacity: 1;
+    outline: 1px solid #202020;
+  }
+  70% {
+    opacity: 0.7;
+    outline: 1px solid #674966;
+  }
+  100% {
+    opacity: 1;
+    outline: 1px solid #202020;
+  }
+}
