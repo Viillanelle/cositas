@@ -1,0 +1,67 @@
+.agj .atxt strong {
+  background-color: #607b8f;
+  padding: 0.5px;
+  color: #000;
+}
+.agj .atxt {
+ text-align: left;
+ width: 120px;
+ color: #dcdcdc;
+ font: 400 9px "JetBrains Mono", monospace;
+ letter-spacing: 1px;
+ padding-left: 10px;
+ text-transform: uppercase;
+}
+
+.agj .y .a {
+  font-size: 60px;
+  color: #607b8f;
+  margin-top: 15px;
+}
+
+.agj .y {
+ position: absolute;
+ margin-top: -175px;
+ opacity: 0;
+ transition: 1s; 
+ width: 270px;
+ height: 170px;
+ display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.agj:hover .atxt {
+  
+}
+.agj:hover .y {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 1s;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+
+.agj:hover .x {
+  margin-top: -55px;
+  transition: 1s;
+}
+
+.agj .x {
+  width: 270px;
+  height: 230px;
+  transition: 1s;
+  transition-delay: 1s;
+}
+
+.agj {
+  margin: 0 auto;
+  width: 270px;
+  height: 170px;
+  border: 1px solid #191919;
+  outline: 10px solid #000;
+  overflow: hidden;
+}
