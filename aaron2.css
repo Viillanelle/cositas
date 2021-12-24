@@ -1,11 +1,10 @@
 .agj .atxt strong {
   background-color: #607b8f;
-  padding: 0.5px;
   color: #000;
 }
 .agj .atxt {
  text-align: left;
- width: 120px;
+ width: 127px;
  color: #dcdcdc;
  font: 400 9px "JetBrains Mono", monospace;
  letter-spacing: 1px;
@@ -24,8 +23,8 @@
  margin-top: -175px;
  opacity: 0;
  transition: 1s; 
- width: 270px;
- height: 170px;
+ width: 268px;
+ height: 167px;
  display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
