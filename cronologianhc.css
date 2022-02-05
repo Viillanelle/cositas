@@ -1,3 +1,12 @@
+:root {--fondo-foro: url(https://i.imgur.com/3bitHyr.png); --color-acento: #6d576c; } 
+.cabecera-tit1 {font-size:0px;} 
+.cabecera-tit1::before { content: 'Potions'; font-size: 85px; } 
+.cabecera-tit2 {font-size: 0px;} 
+.cabecera-tit2::before {content: 'And Spells'; font-size: 85px;} 
+.cabecera-tit3 {display:none;} .postprofile {display:none;} 
+.post .postbody {width: 100% !important; --color-acento: #6d576c !important; } 
+.post-datos {--color-acento: #6d576c !important;} .signature_div {display:none;}
+
 .nhcro .cro {
   display: flex;
   flex-direction: row;
