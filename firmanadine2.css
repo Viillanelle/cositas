@@ -26,7 +26,7 @@
 }
 
 .nadshc .n1:hover {
-  outline: 1px solid #674966;
+  outline: 1px solid #6D576C;
   animation: parpadeo 2s linear infinite;
 }
 
@@ -34,7 +34,7 @@
   width: 300px;
   height: 180px;
   margin: 0 auto;
-  outline: 1px solid #674966;
+  outline: 1px solid #6D576C;
   outline-offset: 2px;
   border: 1px solid #101010;
 }
@@ -50,7 +50,7 @@
   }
   4% {
     opacity: 0.1;
-    outline: 1px solid #674966;
+    outline: 1px solid #6D576C;
   }
   
   8% {
@@ -59,7 +59,7 @@
   }
   70% {
     opacity: 0.7;
-    outline: 1px solid #674966;
+    outline: 1px solid #6D576C;
   }
   100% {
     opacity: 1;
