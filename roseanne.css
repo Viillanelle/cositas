@@ -11,6 +11,7 @@
   letter-spacing: 1px;
   font-family: "JetBrains Mono", monospace;
   text-transform: uppercase;
+line-height: 100%;
 }
 
 #rosief .rof:hover .ro {
