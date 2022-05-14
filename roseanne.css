@@ -1,0 +1,110 @@
+#rosief .rof .ro .ro2 b {
+  background-color: #dcdcdc;
+  color: #B18A95;
+}
+#rosief .rof .ro .ro2 {
+  color: #dcdcdc;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 115px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+}
+
+#rosief .rof:hover .ro {
+  width: 280px;
+  height: 200px;
+  opacity: .8;
+}
+
+#rosief .rof:hover .ro {
+  opacity: 1;
+  background-color: rgba(177, 138, 149, 0.8);
+}
+
+#rosief .rof .ro {
+  width: 280px;
+  height: 200px;
+  opacity: 0;
+  backdrop-filter: grayscale(100%);
+  transition: ease .5s; 
+  display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: flex-end;
+	  align-items: baseline;
+	  align-content: center;
+}
+
+#rosief .rof:hover {
+  outline: 1px solid #303030;
+  animation: parpadeo 2s linear;
+}
+
+#rosief .rof {
+    margin: 0 auto;
+    width: 280px;
+    height: 200px;
+    border: 1px solid #;
+    outline: 1px solid #B18A95;
+    outline-offset: 5px;
+  animation: parpadeo2 2s linear;
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 0.1;
+    outline: 1px solid #303030;
+  }
+  2% {
+    opacity: 1;
+    outline: 1px solid #303030;
+  }
+  4% {
+    opacity: 0.1;
+    outline: 1px solid #B18A95;
+  }
+  
+  8% {
+    opacity: 1;
+    outline: 1px solid #303030;
+  }
+  70% {
+    opacity: 1;
+    outline: 1px solid #303030;
+  }
+  100% {
+    opacity: 1;
+    outline: 1px solid #303030;
+  }
+}
+
+@keyframes parpadeo2 {
+  0% {
+    opacity: 0.1;
+    outline: 1px solid #303030;
+  }
+  2% {
+    opacity: 1;
+    outline: 1px solid #B18A95;
+  }
+  4% {
+    opacity: 0.1;
+    outline: 1px solid #303030;
+  }
+  
+  8% {
+    opacity: 1;
+    outline: 1px solid #B18A95;
+  }
+  70% {
+    opacity: 1;
+    outline: 1px solid #B18A95;
+  }
+  100% {
+    opacity: 1;
+    outline: 1px solid #B18A95;
+  }
+}
